@@ -40,7 +40,8 @@ figcaption
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, 
 .banner-principal h4, .banner-principal h5, .banner-principal h6,
   color: $color-sistema-texto !important
-.boton *, .boton--sm *
+.boton *, .boton--sm *,
+.barra-avance__boton--regresar span 
   color: $white !important  
 
 
@@ -50,7 +51,13 @@ figcaption
   color: $color-sistema-texto !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: $color-sistema-texto !important
-
+.bloque-texto-a:before
+  background-color: transparent !important
+  z-index: 1
+.tabs-a__tab
+  background-color: #BDADEA !important
+.tabs-a.color-acento-botones .tabs-a__tab__selected
+  background-color: #448075 !important
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -65,3 +72,112 @@ figcaption
 .bg-color
   &-1
     background-color: $color-adicional-2 !important
+  &-2
+    background-color: $color-adicional-1 !important
+  &-3
+    background-color: #FFDBDC !important
+  &-4
+    background-color: #FFFFF6 !important
+
+  &-5
+    position: relative
+    z-index: 99;
+    &::before
+      background-color: #F2EEFB !important;
+      content: '';
+      display: block;
+      position: absolute;
+      top: 18.5%;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 63%;
+      z-index: -1;
+  &-6
+    background-color: $color-acento-contenido !important
+  &-7
+    background-color: $white !important
+  &-8
+    background-color: #FFF6F6 !important
+  &-9
+    background-color: $color-secundario !important
+  &-10
+    background-color: #FFFBEE !important
+  &-11
+    color: $color-primario !important
+  &-12
+    background-color: #FF9195 !important
+  &-13
+    background-color: #FFEDEE !important
+.br
+  &-1
+    border-radius: 20px !important
+  &-2
+    border-radius: 10px !important
+
+.img
+  &-1
+    position: relative;
+    top: -59px
+    width: 50%
+    margin: auto !important;
+
+.wcus
+  &-1
+    width: fit-content;
+  &-2
+    width: 50% !important
+  &-3
+    width: 25% !important
+
+.hcus
+  &-1
+    height: 60px;
+
+.pcus
+  &-1
+    padding: 2rem !important;
+
+/**************************************************************/
+/*Media Queries*/  
+/**************************************************************/
+
+//// DESKTOP SMALL 1400--------------------------------------
+@media screen and (max-width: $bp-min-xxl)
+  .mb-cus
+    margin-bottom: 2em  !important 
+  .bloque-texto-g
+    padding-top: 3rem !important
+
+//// TABLET 992--------------------------------------
+@media screen and (max-width: $bp-max-md)
+  .mb-cus
+    margin-bottom: 2em  !important  
+  
+  
+  
+//// TABLET MINI 768--------------------------------------
+@media screen and (max-width: $bp-min-md)
+  .mb-cus
+    margin-bottom: 2em  !important  
+  .pcus
+    &-1
+      padding: 1rem !important;
+  .wcus
+    &-2
+      width: 60% !important
+  
+
+//// MOBILE 576--------------------------------------
+@media screen and (max-width: $bp-min-sm)
+  .mb-cus
+    margin-bottom: 2em  !important
+  .bloque-texto-g
+    padding-top: 20px !important
+
+  .wcus
+      &-2
+        width: 100% !important
+      &-3
+        width: 50% !important
+  

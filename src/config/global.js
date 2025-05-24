@@ -66,7 +66,7 @@ export default {
           },
           {
             numero: '1.6',
-            titulo: 'Divsión del cuerpo',
+            titulo: 'División del cuerpo',
             hash: 't_1_6',
           },
           {
