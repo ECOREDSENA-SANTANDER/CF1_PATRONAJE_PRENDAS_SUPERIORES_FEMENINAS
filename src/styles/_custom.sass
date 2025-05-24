@@ -8,7 +8,12 @@
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 51%
-    right: 30%
+    right: 0%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 51%
+    left: 0%
 
 @keyframes float1
   0%
@@ -19,12 +24,44 @@
 
 .banner-principal .tarjeta
   background-position: left 50% !important
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
+.banner-principal__img 
+  padding-bottom: 0 !important;
+  width: 33%;
+  
+.banner-principal__row .banner-principal__img 
+    padding-right: 0 !important;
+
 .banner-interno__titulo__icono i
-  color: $color-primario
+  color: $color-acento-botones
 figcaption
   font-weight: normal
- 
+
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, 
+.banner-principal h4, .banner-principal h5, .banner-principal h6,
+  color: $color-sistema-texto !important
+.boton *, .boton--sm *
+  color: $white !important  
+
+
+.banner-interno__titulo h1, .banner-interno__titulo h2, 
+.banner-interno__titulo h3, .banner-interno__titulo h4, 
+.banner-interno__titulo h5, .banner-interno__titulo h6
+  color: $color-sistema-texto !important  
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: $color-sistema-texto !important
+
+/**************************************************************/
+/***CUSTOM STYLES***/
+/**************************************************************/
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+.bg-color
+  &-1
+    background-color: $color-adicional-2 !important
