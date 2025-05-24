@@ -44,7 +44,8 @@ figcaption
 .barra-avance__boton--regresar span 
   color: $white !important  
 
-
+.texto-sistema
+  color: $color-sistema-texto !important 
 .banner-interno__titulo h1, .banner-interno__titulo h2, 
 .banner-interno__titulo h3, .banner-interno__titulo h4, 
 .banner-interno__titulo h5, .banner-interno__titulo h6
@@ -58,6 +59,47 @@ figcaption
   background-color: #BDADEA !important
 .tabs-a.color-acento-botones .tabs-a__tab__selected
   background-color: #448075 !important
+.crd--first:before, .crd--last:before
+  background-color: #FFE260 !important;
+  border-radius: 15px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 1rem
+  & > *
+    position: relative
+  h5
+    color: #7F4FC7
+  p
+    margin-bottom: 0
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #C5E5FE
+  @media (max-width: 1000px)
+    padding-right: 2rem
+.tabs-c
+  border: 0px !important
+.tabs-c.color-acento-contenido .tabs-c__tab--active
+  font-weight: bold !important
+.tabs-c__content-item
+  background-color: #F6F6F6 !important
+  border-bottom: 1px solid #E8E8E8 !important
+  border-left: 1px solid #E8E8E8 !important
+  border-right: 1px solid #E8E8E8 !important
+  padding: 1.5rem 2rem !important
+.tabs-c__header
+  margin-bottom: 0px !important
+.tabla-a.tabla-custom thead 
+    background-color: #F2EEFB
+.tabla-a.tabla-custom table 
+    min-width: 300px;
+.tabla-a.tabla-custom table th, .tabla-a.tabla-custom table td
+    padding: 12px 10px !important
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -69,6 +111,10 @@ figcaption
   @media screen and (max-width: $bp-max-sm)
     padding-left: 1.5rem
     padding-right: 1.5rem
+.bg-fondo
+  &-1
+    background-image: url("../assets/curso/temas/bg/1.svg") !important
+    background-position: center
 .bg-color
   &-1
     background-color: $color-adicional-2 !important
@@ -109,11 +155,22 @@ figcaption
     background-color: #FF9195 !important
   &-13
     background-color: #FFEDEE !important
+  &-14
+    background-color: #EFA6A8 !important
+  &-15
+    background-color: #FFE260 !important
+  &-16
+    background-color: #F2EEFB !important
+  &-17
+    background-color: #E4DEF6 !important
+
 .br
   &-1
     border-radius: 20px !important
   &-2
     border-radius: 10px !important
+  &-3
+    border-radius: 15px !important
 
 .img
   &-1
@@ -129,6 +186,10 @@ figcaption
     width: 50% !important
   &-3
     width: 25% !important
+  &-4
+    width: 95% !important
+  &-5
+    width: 80% !important
 
 .hcus
   &-1
@@ -138,6 +199,38 @@ figcaption
   &-1
     padding: 2rem !important;
 
+.titulo-icono
+  background-color: #CC3A3F
+  border-radius: 30px
+  width: fit-content
+  position: relative;
+  left: 12px;
+  &-text
+    margin-right: 10px
+    margin-left: 50px;
+    color: $white
+  &-img
+    padding: 0px
+    position: absolute
+
+    &:before
+      position: relative
+      border-bottom-right-radius: 40px
+      @media screen and (max-width: 767px)
+        height: 280%
+    img
+      position: relative
+      max-width: 50px
+.card
+  &-1
+    display: flex
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    &:hover
+      background-color: #FFEDEE !important
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
@@ -166,7 +259,11 @@ figcaption
   .wcus
     &-2
       width: 60% !important
+  .crd--avatarHorizontal
+    padding: 1rem 2rem !important
   
+    &::before
+      width: 100%
 
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)
@@ -180,4 +277,17 @@ figcaption
         width: 100% !important
       &-3
         width: 50% !important
+  .crd--avatarHorizontal
+    padding: 1rem 2rem !important
   
+    &::before
+      width: 100%
+
+  .pcus
+    &-3
+      padding: 2rem !important
+    &-4
+      padding: 1rem !important
+  
+  .tabla-a.tabla-custom table 
+    min-width: 700px !important
