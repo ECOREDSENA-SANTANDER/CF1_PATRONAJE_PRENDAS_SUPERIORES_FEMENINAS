@@ -154,7 +154,7 @@ export default {
         ],
       },
       {
-        nombreRuta: 'tema7',
+        nombreRuta: 'tema6',
         numero: '6',
         titulo: 'Fichas técnicas en patronaje',
         desarrolloContenidos: true,
