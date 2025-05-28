@@ -109,9 +109,19 @@ figcaption
     padding: 18px 20px !important
     vertical-align: top !important
     text-align: left
+.pasos-b__header__btn--left, .pasos-b__header__btn--right
+    border: 2px solid $color-acento-botones;
+    background-color: $color-acento-botones;
+    color: $white;
+.pasos-b.color-acento-contenido .pasos-b__header__item--active .pasos-b__header__item__dot span
+    color: $white !important
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
+.text-left
+  text-align: left !important
+.p-full-width
+  padding: 3rem 2.5rem!important;
 .bg-full-width
   background-size: cover
   background-repeat: no-repeat
@@ -124,7 +134,14 @@ figcaption
   &-1
     background-image: url("../assets/curso/temas/bg/1.svg") !important
     background-position: center
+  &-2
+    background-image: url("../assets/curso/temas/bg/2.svg") !important
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
 .bg-color
+  &-white
+    background-color: $white !important
   &-1
     background-color: $color-adicional-2 !important
   &-2
@@ -176,6 +193,8 @@ figcaption
     background-color: #FFFCEF !important
   &-19
     background-color: #FFFFED !important
+  &-20
+    background-color: #FFF9DF !important
 .br
   &-1
     border-radius: 20px !important
@@ -208,6 +227,10 @@ figcaption
     width: 82.5% !important
   &-8
     width: 81% !important
+  &-9
+    width: 15% !important
+  &-10
+    width: 10% !important
 .hcus
   &-1
     height: 60px;
@@ -291,6 +314,8 @@ figcaption
   
     &::before
       width: 100%
+  .p-full-width
+    padding: 0.5rem !important;
 
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)
@@ -318,8 +343,8 @@ figcaption
   
   .tabla-a.tabla-custom table 
     min-width: 700px !important
-  .bg-full-width 
-    margin-inline: 0rem;
+  .p-full-width
+    padding: 1rem!important;
   .tarjeta--container > .tarjeta
     border-radius: 20px !important
     margin-bottom: 1rem !important
