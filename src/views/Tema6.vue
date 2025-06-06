@@ -29,7 +29,7 @@
                   .d-flex.justify-content-center.mb-4
                     img(src='@/assets/curso/temas/t6/2.svg', alt='', style='width:70px; background:#FFE066; border-radius:50%; padding:10px;')
                   h4.mb-4.bg-color-6.p-2   Identificación del producto
-                  p.mb-0 Incluye el nombre de la prenda, código o referencia, categoría y colección a la que pertenece.
+                  p.mb-0.text-center Incluye el nombre de la prenda, código o referencia, categoría y colección a la que pertenece.
           .tarjeta.bg-color-white
             .row.justify-content-center.align-items-center
               .col-sm-12.col-lg-12
@@ -71,7 +71,7 @@
                   h4.mb-4.bg-color-6.p-2.text-center Detalles de acabado
                   p.text-center Especifica procesos adicionales como lavado, planchado, etiquetado y empaquetado, garantizando la presentación y calidad final del producto. 
   
-      p.mb-5.text-center(data-aos='fade-right') Dentro del proceso de fabricación, existen diferentes tipos de fichas técnicas especializadas:
+      p.mb-5(data-aos='fade-right') Dentro del proceso de fabricación, existen diferentes tipos de fichas técnicas especializadas:
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-3.d-none.d-lg-block
           img(src='@/assets/curso/temas/t6/8.png', alt='')
@@ -85,12 +85,12 @@
             div(titulo='Ficha técnica de despiece')
               .row.mb-0
                 .col-12.px-5
-                  p.mb-0 Aunque no se encontró información específica en las fuentes consultadas, generalmente, la ficha técnica de despiece detalla cada componente individual de la prenda, incluyendo piezas de tela, forros y refuerzos, especificando dimensiones, materiales y cualquier característica particular.
+                  p.mb-0 Detalla cada componente individual de la prenda, incluyendo piezas de tela, forros y refuerzos, especificando dimensiones, materiales y cualquier característica particular.
 
             div(titulo='Ficha técnica de escalado')
               .row.mb-0
                 .col-12.px-5
-                  p.mb-0 Aunque no se encontró información específica en las fuentes consultadas, generalmente, la ficha técnica de escalado se centra en la gradación de tallas, proporcionando las medidas y proporciones necesarias para adaptar el patrón base a diferentes tamaños, manteniendo la coherencia en el diseño y el ajuste de la prenda.
+                  p.mb-0 Se centra en la gradación de tallas, proporcionando las medidas y proporciones necesarias para adaptar el patrón base a diferentes tamaños, manteniendo la coherencia en el diseño y el ajuste de la prenda.
       p.mb-5(data-aos='fade-right') La implementación de fichas técnicas detalladas en cada etapa del proceso de fabricación es fundamental para garantizar la precisión, eficiencia y calidad en la producción de prendas de vestir.
       .tarjeta.bg-color-12.p-3.mb-0(data-aos='fade-right')
           .row.justify-content-around.align-items-center
@@ -102,7 +102,7 @@
                   h4.mb-1 Introducción a ficha técnica
                   p.mb-0 Se invita a consultar el video para conocer la función de las fichas técnicas en la fabricación de prendas de vestir y su importancia en el control y precisión del proceso de confección.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=5YOLIDHLiCw" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=dcFVqOqjFg4" target="_blank")
                     span Ir al video
                     i.fas.fa-play-circle       
   </template>

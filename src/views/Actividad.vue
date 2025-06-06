@@ -20,7 +20,7 @@ export default {
       tema: 'Estructura corporal femenina',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión de los conceptos fundamentales sobre estructura corporal, siluetas femeninas y universos del vestuario. ',
+        '<b> Objetivo:</b> evaluar la comprensión de los conceptos fundamentales sobre estructura corporal, siluetas femeninas y universos del vestuario. ',
       barajarPreguntas: true,
       titulo_aprobado: '¡Felicidades!',
       titulo_reprobado: '¡Vuelva a intentarlo!',
@@ -44,7 +44,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos de Estructura Corporal femenina.',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de estructura corporal femenina.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -67,7 +67,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos de Estructura Corporal femenina.',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de estructura corporal femenina.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -90,7 +90,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos de Estructura Corporal femenina.',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de estructura corporal femenina.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -113,7 +113,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos de Estructura Corporal femenina.',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de estructura corporal femenina.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -136,7 +136,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos de Estructura Corporal femenina.',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de estructura corporal femenina.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -159,7 +159,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos de Estructura Corporal femenina.',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de estructura corporal femenina.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -182,7 +182,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos de Estructura Corporal femenina.',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de estructura corporal femenina.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -205,7 +205,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos de Estructura Corporal femenina.',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de estructura corporal femenina.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -228,7 +228,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos de Estructura Corporal femenina.',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de estructura corporal femenina.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -251,13 +251,13 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos de Estructura Corporal femenina.',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de estructura corporal femenina.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
       ],
       mensaje_final_aprobado:
-        'Ha demostrado un gran conocimiento sobre Estructura Corporal femenina y su importancia en la toma de medidas en procesos de patronaje industrial para dama.',
+        'Ha demostrado un gran conocimiento sobre estructura corporal femenina y su importancia en la toma de medidas en procesos de patronaje industrial para dama.',
       mensaje_final_reprobado:
         'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },

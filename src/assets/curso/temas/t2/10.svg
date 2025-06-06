@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="92.344" height="92.344" viewBox="0 0 92.344 92.344">
   <defs>
     <clipPath id="clip-path">
-      <rect id="Rectángulo_401506" data-name="Rectángulo 401506" width="92.344" height="92.344" fill="none"/>
+      <rect id="Rectángulo_401506" data-name="Rectángulo 401506" width="92.344" height="92.344" fill="#ff494f"/>
     </clipPath>
   </defs>
-  <g id="Grupo_1113913" data-name="Grupo 1113913" transform="translate(-759.378 -3536.337)">
-    <g id="Grupo_1113439" data-name="Grupo 1113439" transform="translate(759.378 3536.337)">
+  <g id="Grupo_1113916" data-name="Grupo 1113916" transform="translate(-317.708 -3536.337)">
+    <g id="Grupo_1113454" data-name="Grupo 1113454" transform="translate(317.708 3536.337)">
       <g id="Grupo_1099827" data-name="Grupo 1099827" clip-path="url(#clip-path)">
-        <path id="Trazado_883915" data-name="Trazado 883915" d="M92.344,46.173A46.172,46.172,0,1,1,46.172,0,46.172,46.172,0,0,1,92.344,46.173" transform="translate(0 -0.001)" fill="#ffe260"/>
+        <path id="Trazado_883915" data-name="Trazado 883915" d="M92.344,46.173A46.172,46.172,0,1,1,46.172,0,46.172,46.172,0,0,1,92.344,46.173" transform="translate(0 -0.001)" fill="#ff494f"/>
       </g>
     </g>
-    <g id="la-medida" transform="translate(692.904 3551.337)">
+    <g id="la-medida" transform="translate(251.233 3551.337)">
       <g id="Grupo_1113445" data-name="Grupo 1113445" transform="translate(91.527)">
         <path id="Trazado_894954" data-name="Trazado 894954" d="M207.435,331.613a5.415,5.415,0,0,0-.937-6.179H194.737a5.415,5.415,0,0,0-.937,6.179l.078.156h13.478Z" transform="translate(-182.666 -291.643)" fill="#12263f"/>
         <path id="Trazado_894955" data-name="Trazado 894955" d="M209.413,410.554l.334.334a3.157,3.157,0,0,1,.926,2.24h9.894a8.277,8.277,0,0,1-.57-2.986v-.591a8.305,8.305,0,0,1,.478-2.758H208.959a8.3,8.3,0,0,1,.478,2.758v.591C209.437,410.28,209.42,410.417,209.413,410.554Zm5.3-1.651a1.056,1.056,0,1,1-1.056,1.056A1.056,1.056,0,0,1,214.717,408.9Z" transform="translate(-196.766 -364.553)" fill="#12263f"/>

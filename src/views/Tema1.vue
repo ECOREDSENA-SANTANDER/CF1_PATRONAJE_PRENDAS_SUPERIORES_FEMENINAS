@@ -91,7 +91,7 @@
         h2 1.4 Morfología
       p.mb-5(data-aos='fade-right') La morfología del cuerpo humano hace referencia a la forma y estructura del cuerpo a partir de la relación y disposición de sus partes, esta rama resulta esencial en otras áreas y disciplinas como la anatomía, y fisiología.
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          p.mb-0 #[b Figura 3.] Morfología del cuerpo humano
+          p.mb-0 #[b Figura 3.] Morfología femenina
       figure.mb-0(data-aos='fade-right')
           img(src='@/assets/curso/temas/t1/8.png', alt='Cinco mujeres de pie, en ropa interior  representan diferentes tipos morfológicos femeninos. Sus siluetas evidencian variaciones en proporciones corporales como la forma del tronco, distribución del tejido graso, longitud de piernas y estructura ósea.')
       
@@ -108,7 +108,7 @@
           p.mb-0 Es por lo anterior, que en la moda uno de los objetivos a perseguir es poder proporcionar modelos de prendas ergonómicos con procesos de confección, en donde el estudio de materiales para su construcción resulta ser uno de los puntos tácticos en este proceso. 
       
       
-      p.mb-5.text-center(data-aos='fade-right') En resumen, la relación entre los conceptos y la estructura corporal es la siguiente:
+      p.mb-5(data-aos='fade-right') En resumen, la relación entre los conceptos y la estructura corporal es la siguiente:
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/t1/10.png', alt='')
@@ -166,10 +166,9 @@
       .row.justify-content-center.mb-5.align-items-center(data-aos='fade-right')
         .col-sm-12.col-lg-3.d-none.d-lg-block
           img(src='@/assets/curso/temas/t1/16.png', alt='')
-        .col-sm-12.col-lg-9
-            p.mb-4 A partir de lo abordado en los conceptos anteriores, es indispensable saber cómo se contempla la división del cuerpo en relación a sus miembros para poder entenderlo a partir de la clasificación de las prendas inferiores y superiores.
-            p.mb-0 Teniendo en cuenta la figura anterior, las prendas de vestir se distribuyen a partir de los miembros superiores y miembros inferiores.
-      
+        .col-sm-12.col-lg-9.bg-color-13.br-1.p-4
+            p.mb-0 A partir de lo abordado en los conceptos anteriores, es indispensable saber cómo se contempla la división del cuerpo en relación a sus miembros para poder entenderlo a partir de la clasificación de las prendas inferiores y superiores.
+           
       .bg-full-width.bg-color-10.mb-0
         .px-4.px-md-5.py-md-5
           .row.justify-content-between.mb-0(data-aos='fade-right')
@@ -177,7 +176,7 @@
               .titulo-sexto.color-acento-contenido.mt-3
                   p.mb-0 #[b Figura 4.] División del cuerpo
               figure.mb-0
-                      img(src='@/assets/curso/temas/t1/17.svg', alt='Esquema del cuerpo humano dividido en regiones anatómicas, cada una identificada con un color diferente y su respectiva etiqueta. Se destacan las principales partes del cuerpo: cabeza (cráneo y cara), tronco (cuello, tórax, abdomen y pelvis), miembro superior (brazo, antebrazo y mano) y miembro inferior (muslo, pierna y pie). Esta ilustración facilita la identificación de las distintas secciones anatómicas del cuerpo humano.')
+                      img(src='@/assets/curso/temas/t1/17.svg', alt='Esquema del cuerpo humano dividido en regiones anatómicas. Se destacan las principales partes del cuerpo: cabeza (cráneo y cara), tronco (cuello, tórax, abdomen y pelvis), miembro superior (brazo, antebrazo y mano) y miembro inferior (muslo, pierna y pie). Esta ilustración facilita la identificación de las distintas secciones anatómicas del cuerpo humano.')
             .col-sm-12.col-lg-7.px-4
               h4.mb-4 Prendas superiores
               ul.lista-ul--color.mb-5
@@ -216,6 +215,8 @@
                         a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=9UZwjgAYxMY" target="_blank")
                           span Ir al video
                           i.fas.fa-play-circle
+      p.mb-0 Teniendo en cuenta la figura anterior, las prendas de vestir se distribuyen a partir de los miembros superiores y miembros inferiores.
+      
       Separador
       #t_1_7.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 1.7 Tipos de siluetas femeninas
@@ -246,7 +247,7 @@
           .row.justify-content-center.mb-0  
             .col-sm-12.col-lg-6
               h4.mb-5 Silueta triangular o tipo pera
-              p.mb-0.mb-cus Se caracteriza por tener las caderas más anchas que la de los hombros, en este caso la cintura se percibe más definidamente.  La parte superior suele tener un busto pequeño, lo que genera que la parte inferior se evidencie más prominente.
+              p.mb-0.mb-cus Se caracteriza por tener las caderas más anchas que los hombros, en este caso la cintura se percibe más definidamente.  La parte superior suele tener un busto pequeño, lo que genera que la parte inferior se evidencie más prominente.
             .col-sm-12.col-lg-6
               .bg-color-7.p-4.br-2
                 .titulo-sexto.color-acento-contenido

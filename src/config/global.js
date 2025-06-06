@@ -208,8 +208,7 @@ export default {
   },
   complementario: [
     {
-      tema:
-        'Moda y Vestuario: universos paralelos con infinitas posibilidades de encuentro.',
+      tema: 'Moda',
       referencia:
         'Turnes, C. (2021).  Moda y vestuario: universos paralelos con infinitas posibilidades de encuentro.  Cuadernos del Centro de Estudios de Diseño y comunicación, (100), p. 138-148',
       tipo: 'Artículo',
@@ -221,7 +220,7 @@ export default {
     {
       termino: 'Alta costura',
       significado:
-        'vestuario hecho sobre medida creado por los diseñadores líderes que, usualmente forma parte de una colección para una estación específica, la cual es determinante en la moda en general. la alta costura fue fundada por charles frederick worth en parís en la segunda mitad del siglo xix; a principios del siglo xx fue dominada por paul poiret y después por coco chanel durante y después de la primera guerra mundial.',
+        'vestuario hecho sobre medida creado por los diseñadores líderes que, usualmente forma parte de una colección para una estación específica, la cual es determinante en la moda en general. La alta costura fue fundada por Charles Frederick Worth en París en la segunda mitad del siglo XIX; a principios del siglo XX fue dominada por Paul Poiret y después por Coco Chanel durante y después de la primera guerra mundial.',
     },
     {
       termino: '<i>Atelier</i>',
@@ -295,7 +294,7 @@ export default {
     },
     {
       referencia:
-        'Cabrera, R. (2016). Introducción a la anatomía normal y funcional. Universidad Nacional del Nordeste.',
+        'Cabrera, R. (2016). Introducción a la kinesiología. Universidad Nacional del Nordeste.',
       link:
         'https://med.unne.edu.ar/wp-content/uploads/2018/04/introduccion_a_la_anatomia-1_trayecto.pdf',
     },
@@ -342,7 +341,7 @@ export default {
     },
     {
       referencia:
-        'King, W. (1965). Fashion adoption: A rebuttal to the trickle-down theory.',
+        'King, C. W. (1965). Fashion adoption: A rebuttal to the trickle-down theory.',
       link:
         'https://www.econbiz.de/Record/fashion-adoption-a-rebuttal-to-the-trickle-down-theory-king-charles/10002208542',
     },
@@ -382,7 +381,8 @@ export default {
       link: '',
     },
     {
-      referencia: 'Simmel, G. (1904). Fashion.',
+      referencia:
+        'Simmel, G. (1957). Fashion. The American Journal of Sociology, Vol. 62(6), 541-558. Recuperado de ',
       link:
         'https://sites.middlebury.edu/individualandthesociety/files/2010/09/Simmel.fashion.pdf',
     },
@@ -414,7 +414,7 @@ export default {
       autores: [
         {
           nombre: 'Paola Angélica Castro Salazar',
-          cargo: 'Experta textil',
+          cargo: 'Experta temática',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {

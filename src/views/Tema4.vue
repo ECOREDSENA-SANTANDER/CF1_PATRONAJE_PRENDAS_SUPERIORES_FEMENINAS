@@ -11,7 +11,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/t4/1.png')})`}"
         )
         .bloque-texto-g__texto.p-4.d-flex.flex-column
-          p.mb-3 La moda es vista como un fenómeno que conlleva aspectos profundos más allá de un simple conjunto de prendas, dado que se contempla como un reflejo de la persona, la sociedad y la cultura. señala que la moda va más allá de un conjunto de elementos (prendas) o tendencias y es un sistema que se construye socialmente basado en normas sobre lo que se considera aceptable por determinados contextos (Kawamura, 2005).
+          p.mb-3 La moda es vista como un fenómeno que conlleva aspectos profundos más allá de un simple conjunto de prendas, dado que se contempla como un reflejo de la persona, la sociedad y la cultura. Señala que la moda va más allá de un conjunto de elementos (prendas) o tendencias y es un sistema que se construye socialmente basado en normas sobre lo que se considera aceptable por determinados contextos (Kawamura, 2005).
           p.mb-0 A partir, de lo anterior en el sector de la moda, el concepto se entiende como un sistema, de ahí que diferentes teóricos y expertos en el tema se refieran a "sistema moda".
       p.mb-0 #[b Sistema moda:] se contempla como sistema, dado que engloba no solo las prendas de vestir, sino elementos como accesorios, complementos y calzado, de igual manera áreas que son susceptibles de cambiar y adaptarse según las tendencias actuales.
       
@@ -91,7 +91,7 @@
                   th.w-50 Universo de vestuario
               tbody
                 tr
-                  td Protocoloario
+                  td Protocolario
                   td Gala #[br] Formal
                 tr
                   td Multiocasión
@@ -146,7 +146,7 @@
           .col-sm-12.col-lg-11
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
-                h4.mb-1 Gamas de mercado Universos de vestuarios - ocasiones de uso
+                h4.mb-1 Gamas de mercado - Universos de vestuarios - ocasiones de uso
                 p.mb-0 Se invita a consultar el video para comprender cómo el vestuario se adapta a diferentes contextos, estilos y funciones, según las ocasiones de uso y las necesidades del mercado.
               .col-sm-auto
                 a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=VsTacEciP3k" target="_blank")
@@ -167,7 +167,7 @@
           .col-sm-12.col-lg-6.d-none.d-lg-block
             figure.mb-0
               img(src='@/assets/curso/temas/t4/8.png', alt='')
-      p.mb-5.text-center(data-aos='fade-right') A partir de lo anterior y atendiendo a la clasificación de las gamas de mercado en el sistema moda, se relacionan los siguientes conceptos:
+      p.mb-5(data-aos='fade-right') A partir de lo anterior y atendiendo a la clasificación de las gamas de mercado en el sistema moda, se relacionan los siguientes conceptos:
       TabsC.color-acento-contenido.mb-5(data-aos='fade-right')
         .py-3.py-md-4(titulo="Concepto 1")
           .row.justify-content-center.mb-0.align-items-center
@@ -215,19 +215,7 @@
                 img.wcus-6.mx-auto(src='@/assets/curso/temas/t4/12.png', alt='Diagrama circular que representa las etapas de la moda circular: reciclar, reparar, alquilar/comprar, producción, manufactura, distribución, fibras sostenibles y donar.')
 
       
-      .tarjeta.bg-color-12.p-3.mb-0(data-aos='fade-right')
-        .row.justify-content-around.align-items-center
-          .col-sm-12.col-lg-1.d-none.d-lg-block
-            img.w-75.mx-auto(src="@/assets/curso/temas/t1/18.svg")
-          .col-sm-12.col-lg-11
-            .row.justify-content-between.align-items-center
-              .col.mb-3.mb-sm-0
-                h4.mb-1 Gamas de mercado- Universos de vestuarios-Ocasiones de uso
-                p.mb-0 Se invita a explorar el video - Gamas de mercado - Universos de vestuarios - Ocasiones de uso.
-              .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=VsTacEciP3k" target="_blank")
-                  span Ir al video
-                  i.fas.fa-play-circle
+      
       
       Separador
       #t_4_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')

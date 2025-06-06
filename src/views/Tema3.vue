@@ -6,7 +6,7 @@
         .titulo-principal__numero
           span 3
         h1 Análisis de medidas y cuadro de tallas
-      p.mb-0(data-aos='fade-right') Teniendo claro el análisis y la toma de medidas, en este apartado se abordará como se construye un cuadro de tallas y como este tiene aplicabilidad en el área del patronaje.
+      p.mb-0(data-aos='fade-right') Teniendo claro el análisis y la toma de medidas, en este apartado se abordará cómo se construye un cuadro de tallas y cómo este tiene aplicabilidad en el área del patronaje.
       
       
       Separador
@@ -71,8 +71,8 @@
       #t_3_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 3.2 Medidas deducidas
       .row.justify-content-center.mb-4(data-aos='fade-right')
-        .col-sm-12.col-lg-3.mb-cus
-          .bg-color-13.px-5.pcus-2.br-3
+        .col-sm-12.col-lg-3.mb-cus.bg-color-13.br-3
+          .px-5.pcus-3
             p.mb-3 Las medidas deducidas hacen alusión a un proceso que se realiza una vez ya se han obtenido las medidas corporales del cliente, estas se utilizan para calcular un cuadro de tallas completo.  Por lo general se hace uso de dos medidas; la altura o estatura total y el contorno superior prominente.
             p.mb-0 A continuación, encontrará una tabla de fórmulas que le permitirá comprender cómo se realiza la deducción de medidas.
         .col-sm-12.col-lg-6.mb-cus
@@ -95,33 +95,33 @@
                     td Cintura
                     td Cadera - 14
                   tr
-                    td Estatura 7 ac (nota: 7ac hace referencia a la medida que se toma desde el cuello hasta la planta del pie)
+                    td Estatura 7ac (nota: 7ac hace referencia a la medida que se toma desde el cuello hasta la planta del pie)
                     td Estatura total - 20
                   tr
                     td Talle
-                    td 3/10 de la estatura 7 ac
+                    td 3/10 de la estatura 7ac
                   tr
                     td Cintura/suelo
-                    td 7/10 de la estatura 7 ac
+                    td 7/10 de la estatura 7ac
                   tr
                     td Largo del brazo
-                    td 4/10 de la estatura 7 ac
+                    td 4/10 de la estatura 7ac
                   tr
                     td Estatura total
-                    td Estatura 7 ac + 20 cm
+                    td Estatura 7ac + 20 cm
                   tr
                     td Base
-                    td Pecho + desahogo (4 cm) + costura 2 cm
+                    td Pecho + desahogo (4 cm) + costura (2 cm)
 
-        .col-sm-12.col-lg-3
-          .bg-color-18.px-5.pcus-3.br-3
+        .col-sm-12.col-lg-3.bg-color-18.br-3
+          .px-5.pcus-3
             p.mb-3 A partir de la tabla anterior, es importante tener en cuenta, la medida y aplicación de la fórmula. A continuación, se relaciona un ejemplo: 
             ul.lista-ul--color.mb-0
               li.d-flex
                 i.fas.fa-check-circle.bg-color-11
                 p.mb-0 Deducir la medida de la 7ac y la medida total de la persona, se le restarán 20 centímetros (cm).  Estos 20 cm corresponden a la medida estandarizada aproximada de la cabeza, esto es 7ac o largo útil = largo total – 20 cm. 
 
-      p.mb-4.text-center(data-aos='fade-right') En la siguiente tabla podrá encontrar otras fórmulas de deducción en relación con medidas horizontales y verticales:
+      p.mb-4(data-aos='fade-right') En la siguiente tabla podrá encontrar otras fórmulas de deducción en relación con medidas horizontales y verticales:
 
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         p.mb-0 #[b Tabla 3.] Fórmulas para deducción de medidas corporales
@@ -240,7 +240,7 @@
                   li.d-flex
                     i.fas.fa-check-circle.bg-color-11
                     p.mb-0 Largo de falda corta = 1/2 de la medida cintura al suelo – 3 cm 
-      p.mb-5.text-center(data-aos='fade-right') A continuación, se presenta como obtener medidas deducidas, a partir del desarrollo de las siguientes fórmulas:
+      p.mb-5(data-aos='fade-right') A continuación, se presenta como obtener medidas deducidas, a partir del desarrollo de las siguientes fórmulas:
       .row.justify-content-center.mb-4(data-aos='fade-right')
           .col-sm-12.col-lg-6
               .titulo-sexto.color-acento-contenido
@@ -289,7 +289,7 @@
 
       p.mb-5(data-aos='fade-right') Una vez hecho el recorrido sobre la deducción de medidas se presentará un grupo de tallas y su desarrollo en la obtención de medidas para construcción de cuadros de tallas.
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-        p.mb-0 #[b Tabla 5.] Grupo de tallas
+        p.mb-0 #[b Tabla 5.] Grupos de tallas
       .tabla-a.color-acento-contenido.tabla-custom.mb-5(data-aos='fade-right')
         table(alt="Medidas de referencia para distintas tallas (XS/6, S/8, M/10, L/12) con un incremento entre variables de 2 cm en algunas dimensiones. Se incluyen datos de: tórax máximo y estatura total, mientras que otras medidas como cadera, pecho, cintura, talle, largo de brazo y cuello aún deben completarse.")
           thead
@@ -318,8 +318,8 @@
       
       .row.justify-content-center.align-items-center.mb-5.bg-color-13.p-4.br-3(data-aos='fade-right')
         .col-sm-12.col-lg-11
-            p.mb-4.text-center A partir de la información anterior, es importante relacionar el siguiente resultado:
-            .row.justify-content-center.mb-5
+            p.mb-4 A partir de la información anterior, es importante relacionar el siguiente resultado:
+            .row.justify-content-center.mb-0
               .col-sm-12.col-lg-4 
                 ul.lista-ul--color.mb-0
                   li.d-flex
@@ -352,16 +352,16 @@
                     p.mb-0 Cuello= 2/3 de pecho + 4 cm.
                   li.d-flex
                     i.fas.fa-check-circle.bg-color-11
-                    p.mb-0  Cintura/suelo = 7 /10 de la estatura 7ac.  
+                    p.mb-0  Cintura/suelo = 7/10 de la estatura 7ac.  
                   li.d-flex
                     i.fas.fa-check-circle.bg-color-11
                     p.mb-0 Base = pecho + desahogo + costura (desahogo 4 cm y la costura 2 cm).
 
-      p.mb-5.text-center(data-aos='fade-right') A continuación, se puede explorar cómo se realiza una construcción de la talla 6 con aplicación de fórmulas:
+      p.mb-5(data-aos='fade-right') A continuación, se puede explorar cómo se realiza una construcción de la talla 6 con aplicación de fórmulas:
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         p.mb-0 #[b Tabla 6.] Aplicación de fórmulas
       .tabla-a.color-acento-contenido.tabla-custom.mb-5(data-aos='fade-right')
-        table(alt="Medidas corporales junto con sus fórmulas de cálculo y resultados aplicados a un caso específico. Se incluyen dimensiones clave como estatura total, tórax máximo, cadera, pecho, cintura y largo de brazo, utilizando relaciones matemáticas para su determinación.")
+        table(alt="Medidas corporales y sus cálculos para la talla 6 (XS/6) Se incluyen áreas corporales de tórax máximo, cadera, pecho, cintura, estatura total, talle, largo de brazo, cuello y cintura al suelo, con fórmulas matemáticas para deducción.")
           thead
             tr
               th Talla
@@ -391,15 +391,15 @@
             tr
               td.text-center Estatura 7a
               td.text-center 164 - 20
-              td.text-center 146
+              td.text-center 144
             tr
               td.text-center Talle
               td.text-center 144/10 = 14,4 * 3
-              td.text-center 43,8
+              td.text-center 43,2
             tr
               td.text-center Largo de brazo
               td.text-center 144/10 = 14,4 * 4
-              td.text-center 58,4
+              td.text-center 57,6
             tr
               td.text-center Cuello
               td.text-center 40/3 = 13,3 * 2
@@ -407,7 +407,7 @@
             tr
               td.text-center Cintura/suelo
               td.text-center 144/10 = 14,4 * 7
-              td.text-center 102,2
+              td.text-center 100,8
             tr
               td.text-center Base
               td.text-center 38 + 4 + 2
@@ -427,7 +427,7 @@
                 img(src='@/assets/curso/temas/t3/5.svg') 
             .col-sm-12.col-lg-10         
               h2.mb-0.bg-color-6.p-2 Norma Técnica Colombiana NTC-ISO 8559:1995
-          p.mb-0 Fabricación de vestuario y estudios antropométricos. dimensiones corporales.
+          p.mb-0 Fabricación de vestuario y estudios antropométricos. Dimensiones corporales.
         .col-md.tarjeta.bg-color-3.p-5
           .row.justify-content-center.mb-4.align-items-center
             .col-2.d-none.d-lg-block
@@ -475,47 +475,47 @@
                     td Contorno de busto
                     td 88,0
                     td 92,0
-                    td 92,0
+                    td 4,0
                   tr
                     td Contorno de cintura
                     td 64,0
                     td 65,0
-                    td 65,0
+                    td 1,0
                   tr
                     td Contorno de cadera
                     td 92,0
                     td 93,0
-                    td 93,0
+                    td 1,0
                   tr
                     td Ancho de espalda
                     td 36,0
                     td 37,0
-                    td 37,0
+                    td 1,0
                   tr
                     td Ancho de pecho
                     td 32,0
                     td 33,0
-                    td 33,0
+                    td 1,0
                   tr
                     td Talle frente
                     td 42,0
                     td 42,5
-                    td 42,5
+                    td 0,5
                   tr
                     td Talle atrás
                     td 44,0
                     td 44,5
-                    td 44,5
+                    td 0,5
                   tr
                     td Centro frente
                     td 36,75
                     td 37,0
-                    td 37,0
+                    td 0,25
                   tr
                     td Centro atrás
                     td 40,0
                     td 40,25
-                    td 40,25
+                    td 0,25
 
   </template>
 

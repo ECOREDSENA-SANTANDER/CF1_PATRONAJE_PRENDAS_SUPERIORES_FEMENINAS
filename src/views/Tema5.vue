@@ -10,7 +10,7 @@
         .col-sm-12.col-lg-6
           p.mb-5 Los textiles en general ya sea para uso de vestuario o industrial se elaboran a partir de fibras que dan origen a un filamento, este es hilado, después se convierte en hilo y posteriormente a partir de diversas clases de tejidos se elaboran las telas, a continuación, encontraras los procesos generales dentro de cada apartado.
           .bg-color-13.p-5.br-3.mb-cus
-            p.mb-0 #[b Fibras textiles:] es la materia solida unitaria de cualquier estructura textil, fibra es cada uno de los filamentos que componen las unidades fundamentales en la fabricación de hilos, textiles y telas, se considera filamento cuya longitud de esta es superior a su diámetro.
+            p.mb-0 #[b Fibras textiles:] es la materia sólida unitaria de cualquier estructura textil, fibra es cada uno de los filamentos que componen las unidades fundamentales en la fabricación de hilos, textiles y telas, se considera filamento cuya longitud de esta es superior a su diámetro.
         .col-sm-12.col-lg-6
           .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 27.] Fibras textiles
@@ -22,7 +22,7 @@
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         p.mb-0 #[b Tabla 10.] Clasificación de las fibras
       .tabla-a.color-acento-contenido.tabla-custom.mb-5(data-aos='fade-right')
-        table(alt="Clasificación de las fibras textiles según su origen: naturales (animales, vegetales, minerales) y químicas (artificiales y sintéticas), con ejemplos de cada tipo.")
+        table(alt="Clasificación las fibras textiles en dos grandes grupos: fibras naturales y fibras químicas, según su origen y composición.")
             caption Referencia Tabla - El rincón de celeste cielo, (2015)
             tr
               td(rowspan="7").fw-bold.bg-color-20 Fibras naturales
@@ -49,8 +49,7 @@
             // Fibras naturales - Minerales
             tr
               td.fw-bold.bg-color-20 Minerales
-              td.bg-color-20 Asbestos, fibra de vidrio, fibra de carbono
-              td.bg-color-20
+              td.bg-color-20(colspan="2") Asbestos, fibra de vidrio, fibra de carbono
             tr
               td(rowspan="7").fw-bold.bg-color-16 Fibras químicas
               td(rowspan="3").fw-bold.bg-color-16  Artificiales
@@ -71,8 +70,8 @@
               td.bg-color-16 Por condensación
               td.bg-color-16 Poliéster (tergal), poliamida (#[em nylon])
             tr
-              td.bg-color-16 Por pliadición
-              td.bg-color-16 Poliuretano, poliespances
+              td.bg-color-16 Por poliadición
+              td.bg-color-16 Poliuretano, poliespanoes
       
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-10
@@ -99,10 +98,9 @@
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         p.mb-0 #[b Tabla 11.] Clasificación de los tejidos
       .tabla-a.color-acento-contenido.tabla-custom.mb-5(data-aos='fade-right')
-        table(alt="Clasificación de telas tejidas y no tejidas, con ejemplos de cada tipo.")
-            caption Referencia Tabla - El rincón de celeste cielo, (2015)
+        table(alt="Tabla con la clasificación de los tejidos en dos grandes grupos: telas tejidas y telas no tejidas. Dentro de las telas tejidas se encuentran los tejidos planos, que incluyen ligamentos fundamentales como tafetán, sarga y raso; ligamentos derivados como esterilla, espina y sarga interrumpida; y otros como dobby, jacquard y afelpados. También se clasifican los tejidos de punto, divididos en tejidos por trama (jersey, lacoste, rib, interlock, piqué) y por urdimbre (tricot y raschell). Por último, las telas no tejidas comprenden materiales como interlones, guatas y entretelas.")
             tr
-              td(rowspan="8").fw-bold.bg-color-20.wcus-9 Telas tejidas
+              td(rowspan="13").fw-bold.bg-color-20.wcus-9 Telas tejidas
             tr
               td(rowspan="7").bg-color-20.fw-bold.w-25.text-left.wcus-9 Plano
               td(rowspan="3").bg-color-20.text-left Ligamentos fundamentales
@@ -114,25 +112,36 @@
             tr
               td.bg-color-20.text-left(rowspan="3") Ligamentos derivados
             
-              td.bg-color-20.text-left Espina / canastra
+              td.bg-color-20.text-left Esterilla/canastra
             tr
-              td.bg-color-20.text-left  Espina / Espiga
+              td.bg-color-20.text-left  Esterilla / Espiga
             tr
               td.bg-color-20.text-left Sarga interrumpida #[em (broken Twill)]
             tr.bg-color-20
               td.bg-color-20.text-left.wcus-9 Otros
               td.bg-color-20.text-left Dobby, jacquard, riso, afelpados etc
-           
+            tr
+              td(rowspan="5").bg-color-20.fw-bold.w-25.text-left.wcus-9 Punto
+              td(rowspan="2").bg-color-20.text-left Por trama
+              td.bg-color-20.text-left Sencillo (jersey, lacoste)
+            tr
+              td.bg-color-20.text-left Doble (rib o resortado, #[em interlock], piqué)
+            tr
+              td.bg-color-20.text-left(rowspan="3") Por urdimbre
+            tr 
+              td.bg-color-20.text-left #[em Tricot]
+            tr 
+              td.bg-color-20.text-left #[em Raschell]
             tr
               td.bg-color-13.fw-bold.wcus-10 Telas no tejidas
               td.bg-color-13.text-left.wcus-9(colspan="3")
-                | Interlones.
+                | Interlones
                 br
-                | Guatas.
+                | Guatas
                 br
-                | Entretelas.
+                | Entretelas
       
-      p.mb-3(data-aos='fade-right') Caracterización de los textiles: las caracterizaciones de los textiles se organizan en función de su comportamiento, está relacionado con el peso del material, desde su estructura, fluidez, expansión y comprensión, a continuación, se relaciona los aspectos más relevantes de cada una.
+      p.mb-3(data-aos='fade-right') #[b Caracterización de los textiles:] las caracterizaciones de los textiles se organizan en función de su comportamiento, está relacionado con el peso del material, desde su estructura, fluidez, expansión y comprensión, a continuación, se relaciona los aspectos más relevantes de cada una.
       p.mb-5(data-aos='fade-right') Para profundizar más en relación a como se caracterizan se invita al aprendiz a seguir el siguiente llamado a la acción:
       .tarjeta.bg-color-12.p-3.mb-0(data-aos='fade-right')
           .row.justify-content-around.align-items-center
@@ -142,9 +151,9 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.mb-1 Sesión 6 - Caracterización de los textiles
-                  p.mb-0 Conozca sobre los textiles su uso y aplicación.
+                  p.mb-0 Se invita a consultar el video para conocer las características, usos y aplicaciones de los textiles en la creación de prendas, una base clave para tomar decisiones acertadas en diseño y confección.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=mc1kARHDHrs" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=kL9UYOzJD3o" target="_blank")
                     span Ir al video
                     i.fas.fa-play-circle 
       
@@ -179,7 +188,7 @@
               .row.justify-content-center.mb-0(titulo="Paso 2")
                 .col-sm-12.col-lg-8.mb-cus
                   h4.mb-5  Distribución y encaje de piezas
-                  p.mb-0 Organiza las piezas para que ocupen el menor espacio posible dentro del ancho de la tela (normalmente 1,40 m o 1,50 m). Aquí se busca una disposición eficiente, como encajar piezas en ángulos o rotarlas si el diseño lo permite.
+                  p.mb-0 Organizar las piezas para que ocupen el menor espacio posible dentro del ancho de la tela (normalmente 1,40 m o 1,50 m). Aquí se busca una disposición eficiente, como encajar piezas en ángulos o rotarlas si el diseño lo permite.
                 .col-sm-12.col-lg-4.d-none.d-lg-block
                     img(src='@/assets/curso/temas/t5/6.png')
 
@@ -187,25 +196,27 @@
               .row.justify-content-center.mb-0(titulo="Paso 3")
                 .col-sm-12.col-lg-8.mb-cus
                   h4.mb-5  Medición de tela usada
-                  p.mb-0 Mide el largo total de tela utilizado una vez acomodadas todas las piezas. Por ejemplo, si las piezas distribuidas ocupan 0,95 metros del total de 1 metro adquirido, ese será tu valor de uso real.
+                  p.mb-0 Medir el largo total de tela utilizado una vez acomodadas todas las piezas. Por ejemplo, si las piezas distribuidas ocupan 0,95 metros del total de 1 metro adquirido, ese será su valor de uso real.
                 .col-sm-12.col-lg-4.d-none.d-lg-block
                     img(src='@/assets/curso/temas/t5/7.png')
 
               .row.justify-content-center.mb-0(titulo="Paso 4")
                 .col-sm-12.col-lg-12.mb-0
-                  h4.mb-5  Cálculo del Aprovechamiento
-                  p.mb-4 La fórmula para calcular el aprovechamiento es:
+                  h4.mb-5  Cálculo del aprovechamiento
                   .row.justify-content-center.mb-5
                     .col-sm-12.col-lg-6.mb-cus
+                        p.mb-4 La fórmula para calcular el aprovechamiento es:
                         .titulo-sexto.color-acento-contenido
                             p.mb-0 #[b Figura 29.]   Fórmula de aprovechamiento
                         figure.mb-0
                           img(src='@/assets/curso/temas/t5/8.svg', alt='Fórmula utilizada para calcular el porcentaje de aprovechamiento de tela. Se obtiene dividiendo el área útil utilizada por los patrones entre el área total del metro de tela, y multiplicando el resultado por 100.')
                     .col-sm-12.col-lg-6
+                      p.mb-0 Tela: 1 metro de largo x 1,50 metros de ancho = 1,5 m²
+                      p.mb-4 Área ocupada por los patrones: 1,15 m²
                       .titulo-sexto.color-acento-contenido
                           p.mb-0 #[b Figura 30.]   Ejemplo de aplicación
                       figure.mb-0
-                        img(src='@/assets/curso/temas/t5/9.svg', alt='Ejemplo aplicado de la fórmula de aprovechamiento de tela. Se divide un área útil de 1.15 metros cuadrados entre un área total de 1.5 metros cuadrados, y el resultado se multiplica por 100. El aprovechamiento obtenido es del 76.67%, lo que indica que se utiliza eficientemente esa proporción del material disponible.')
+                        img(src='@/assets/curso/temas/t5/9.svg', alt='Ejemplo aplicado de la fórmula de aprovechamiento de tela. Se divide un área útil de 1,15 metros cuadrados entre un área total de 1,5 metros cuadrados, y el resultado se multiplica por 100. El aprovechamiento obtenido es del 76,67 %, lo que indica que se utiliza eficientemente esa proporción del material disponible.')
 
               .row.justify-content-center.mb-0(titulo="Paso 5")
                 .col-sm-12.col-lg-8.mb-cus
@@ -222,7 +233,7 @@
                       p.mb-0 Diseño o estampado: telas con dibujos direccionados limitan la rotación de piezas.
                     li.d-flex
                       i.fas.fa-check-circle.bg-color-11
-                      p.mb-0 Técnicas de corte: el uso de software de corte o corte manual puede influir en el rendimiento.
+                      p.mb-0 Técnicas de corte: el uso de #[em software] de corte o corte manual puede influir en el rendimiento.
                 .col-sm-12.col-lg-4.d-none.d-lg-block
                     img(src='@/assets/curso/temas/t5/10.png')
               

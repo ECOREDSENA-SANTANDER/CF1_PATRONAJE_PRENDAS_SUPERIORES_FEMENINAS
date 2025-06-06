@@ -21,7 +21,7 @@
           .col-sm-12.col-lg-10
               p.mb-0 Es por ello que, a partir de conceptos como la antropometría, se considerará la estructura corporal en un amplio contexto, que implica el abordaje de conceptos como biomecánica, morfología y ergonomía, para pasar a entender el cuerpo en relación a su división, lo que conlleva a implementar un sistema de medición técnico cuya información es indispensable en la construcción de cuadro de tallas. 
         .bg-color-1.px-4.py-4
-          p.mb-0 Por lo anterior, este componente permitirá al aprendiz desarrollar diferentes metodologías que faciliten la interpretación de diseños o modelos englobados dentro de la clasificación de prendas vestir teniendo como base la clasificación de tipologías, silueta femenina y universos del vestuario.  
+          p.mb-0 Por lo anterior, este componente permitirá al aprendiz desarrollar diferentes metodologías que faciliten la interpretación de diseños o modelos englobados dentro de la clasificación de prendas de vestir teniendo como base la clasificación de tipologías, silueta femenina y universos del vestuario.  
       .col-sm-12.col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/temas/intro/2.png', alt='')
     
@@ -30,8 +30,8 @@
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video. 
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/3W10xmjBzQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. Estructura corporal femenina 
 
 </template>
 

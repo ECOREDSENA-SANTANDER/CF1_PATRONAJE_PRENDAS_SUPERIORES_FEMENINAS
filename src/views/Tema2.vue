@@ -20,6 +20,7 @@
         .col-sm-12.col-lg-3.d-none.d-lg-block
           img(src='@/assets/curso/temas/t2/1.svg', alt='')
         .col-sm-12.col-lg-4
+            p.mb-4 El sistema de medidas se clasifica en:
             ol.lista-ol--cuadro.lista-ol
               li.d-flex.mb-4
                 .lista-ol--cuadro__vineta
@@ -35,7 +36,7 @@
               p.mb-0 #[b Figura 11.] Escala de fracciones de pulgada del sistema inglés.
           
           figure.mb-0
-            img.wcus-4.mx-auto(src='@/assets/curso/temas/t2/2.svg', alt='Regla del sistema inglés que muestra una escala en pulgadas desde 0 hasta 10. Cada pulgada está dividida en fracciones, marcando medios (1/2), cuartos (1/4), octavos (1/8) y dieciseisavos (1/16), permitiendo medir con precisión longitudes pequeñas en este sistema de unidades.')
+            img.wcus-4.mx-auto(src='@/assets/curso/temas/t2/2.svg', alt='Regla en pulgadas del sistema inglés que muestra divisiones en fracciones de media pulgada desde 0 hasta 10 pulgadas. Cada pulgada está subdividida en 16 partes iguales, con marcas más largas en cada mitad (1/2), y las marcas más pequeñas representan fracciones menores.')
       .bg-full-width.bg-color-13.mb-5
         .px-4.px-md-5.py-md-5.pcus-3(data-aos='fade-right')
           .titulo-sexto.color-acento-contenido
@@ -59,10 +60,10 @@
         .py-3.py-md-4(titulo="Sistema métrico inglés")
           .row.justify-content-center.mb-0
             .col-sm-12.col-lg-6
-              p.mb-4 Está representado como número fraccionario A/B, en donde A es el numerado y B el denominador. 
+              p.mb-4 Está representado como número fraccionario A/B, en donde A es el numerador y B el denominador. 
               p.mb-5 El numerador hace referencia a el número de partes que se toman de la unidad y el denominador al número de partes iguales en los que se divide esa unidad.
               .bg-color-3.px-5.py-4.br-3.mb-cus.pcus-4
-                p.mb-0.fw-bold Al sistema ingles también se le llama "sistema de medidas imperial', especialmente en el entorno de la confección. Sin embargo, la mayoría de los países han adoptado el sistema de medidas decimal comúnmente llamado "sistema universal', haciendo comunes los procesos de conversión de medidas, donde 1" pulgada corresponde 2,54 cm.
+                p.mb-0.fw-bold Al sistema ingles también se le llama “sistema de medidas imperial”, especialmente en el entorno de la confección. Sin embargo, la mayoría de los países han adoptado el sistema de medidas decimal comúnmente llamado “sistema universal”, haciendo comunes los procesos de conversión de medidas, donde 1 pulgada corresponde a 2,54 cm.
             .col-sm-12.col-lg-6
               .bg-color-16.mb-0.p-4
                 .titulo-sexto.color-acento-contenido
@@ -81,17 +82,17 @@
                   .col-sm-12.col-lg-10
                     .row.justify-content-between.align-items-center
                       .col.mb-3.mb-sm-0
-                        h4.mb-1 Clasificación de las medidas 
+                        h4.mb-1 Medidas anatómicas
                         p.mb-0 Se invita a consultar el PDF, donde se presenta una visión general sobre los sistemas de medición, las medidas anatómicas y sus respectivas deducciones.
                       .col-sm-auto
-                        a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/1_Anexo_1_Analisis_e_identificacion_de_la_estructura.pdf')" target="_blank")
+                        a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/2_Anexo_2_Medidas_anatomicas.pdf')" target="_blank")
                           span Descargar
                           i.fas.fa-file-download
             .col-sm-12.col-lg-6
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Tabla 1.]  Análisis de unidades
               .tabla-a.color-acento-contenido.tabla-custom
-                table(alt="Tabla de análisis de medidas con el nombre de siete unidades de medida, abreviatura de la unidad y la equivalencia numérica, resaltadas las más implementadas en procesos de medición.")
+                table(alt="Tabla de análisis de medidas con el nombre de siete unidades de medida, abreviatura de la unidad y la equivalencia numérica.")
                   thead
                     tr
                       th.w-25 Nombre
@@ -150,12 +151,12 @@
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-4.justify-content-center.mb-cus
           .mx-1.bg-color-17.p-4.br-3.card-1
-            img.wcus-3.d-none.d-lg-block.mb-4(src='@/assets/curso/temas/t2/9.svg', alt='')          
+            img.wcus-3.d-none.d-lg-block.mb-4(src='@/assets/curso/temas/t2/10.svg', alt='')          
             h4.text-center.wcus-1.bg-color-9.px-2.py-1   Largos
             p.mb-0.text-center Las medidas se toman de forma vertical y estas hacen referencia a los largos y talles del cuerpo.
         .col-sm-12.col-lg-4.justify-content-center.mb-cus
           .mx-1.bg-color-17.p-4.br-3.card-1
-            img.wcus-3.d-none.d-lg-block.mb-4(src='@/assets/curso/temas/t2/10.svg', alt='')          
+            img.wcus-3.d-none.d-lg-block.mb-4(src='@/assets/curso/temas/t2/9.svg', alt='')          
             h4.text-center.wcus-1.bg-color-9.px-2.py-1   Anchos
             p.mb-0.text-center La medida se toma de manera horizontal y corresponden a los anchos del cuerpo, como el ancho de pecho.
         
@@ -186,7 +187,7 @@
                 h4.mb-1 Clasificación de medidas
                 p.mb-0 Se invita a consultar el video para conocer cómo desarrollar patrones de prendas de vestir, desde la identificación de formas corpóreas y conceptos básicos de anatomía, hasta el diseño del molde básico.
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=nrZzZ6GeEjY" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=ppOfZh4ZzQg" target="_blank")
                   span Ir al video
                   i.fas.fa-play-circle
   </template>
