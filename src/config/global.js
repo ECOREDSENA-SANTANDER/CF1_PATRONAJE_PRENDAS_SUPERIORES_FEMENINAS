@@ -249,7 +249,7 @@ export default {
     {
       termino: 'Estilo',
       significado:
-        'manifestación personal de cada individuo según las características propias y su comunicación a través de su actitud y su vestuario. en el estilo se manifiesta la identidad de la persona que está fundamentada en la unidad que se refleja a partir de la relación existente entre el ser y su aspecto exterior o la apariencia.',
+        'manifestación personal de cada individuo según las características propias y su comunicación a través de su actitud y su vestuario. En el estilo se manifiesta la identidad de la persona que está fundamentada en la unidad que se refleja a partir de la relación existente entre el ser y su aspecto exterior o la apariencia.',
     },
     {
       termino: 'Molde',
@@ -259,7 +259,7 @@ export default {
     {
       termino: '<i>Outfit</i>',
       significado:
-        'conjunto de prendas combinadas de una manera determinada. designa un atuendo concreto, pero su uso se ha popularizado hasta el punto de emplearse como sinónimo del término genérico conjunto.',
+        'conjunto de prendas combinadas de una manera determinada. Designa un atuendo concreto, pero su uso se ha popularizado hasta el punto de emplearse como sinónimo del término genérico conjunto.',
     },
     {
       termino: 'Patronaje',

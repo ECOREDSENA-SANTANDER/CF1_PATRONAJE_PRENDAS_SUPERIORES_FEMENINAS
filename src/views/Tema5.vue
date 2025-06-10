@@ -114,12 +114,12 @@
             
               td.bg-color-20.text-left Esterilla/canastra
             tr
-              td.bg-color-20.text-left  Esterilla / Espiga
+              td.bg-color-20.text-left  Esterilla/espiga
             tr
-              td.bg-color-20.text-left Sarga interrumpida #[em (broken Twill)]
+              td.bg-color-20.text-left Sarga interrumpida #[em (broken twill)]
             tr.bg-color-20
               td.bg-color-20.text-left.wcus-9 Otros
-              td.bg-color-20.text-left Dobby, jacquard, riso, afelpados etc
+              td.bg-color-20.text-left Dobby, jacquard, riso, afelpados, etc
             tr
               td(rowspan="5").bg-color-20.fw-bold.w-25.text-left.wcus-9 Punto
               td(rowspan="2").bg-color-20.text-left Por trama
