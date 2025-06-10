@@ -114,7 +114,7 @@
             
               td.bg-color-20.text-left Esterilla/canastra
             tr
-              td.bg-color-20.text-left  Esterilla/espiga
+              td.bg-color-20.text-left  Espina/espiga
             tr
               td.bg-color-20.text-left Sarga interrumpida #[em (broken twill)]
             tr.bg-color-20
