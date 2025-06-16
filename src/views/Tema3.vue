@@ -64,7 +64,9 @@
 
           figure.mb-0
             img.wcus-6.mx-auto(src='@/assets/curso/temas/t3/4.png', alt='Siete lustraciones lineales en segunda dimensión del cuerpo humano por edades de 1 año, 3 años, 5 años, 10 años y 15 años.')
-            figcaption.wcus-6.mx-auto Fuente: https://lapizuri.weebly.com/proporcioacuten-del-cuerpo-humano.html
+            figcaption.wcus-6.mx-auto.d-flex 
+              p.mb-0 Fuente: &nbsp;  
+              a.mb-0.aref-fuente(href='https://lapizuri.weebly.com/proporcioacuten-del-cuerpo-humano.html') https://lapizuri.weebly.com/proporcioacuten-del-cuerpo-humano.html
             
             
       Separador

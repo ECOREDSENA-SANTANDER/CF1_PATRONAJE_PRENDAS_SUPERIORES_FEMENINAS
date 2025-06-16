@@ -111,7 +111,9 @@
                   p.mb-0 #[b Figura 18.]  Prendas casuales en algodón
               figure.mb-0
                 img.wcus-7.mx-auto(src='@/assets/curso/temas/t4/3.png', alt='Conjunto de prendas femeninas de estilo casual.  Incluye una blusa, una camisa de mezclilla, una camiseta de rayas, un vestido denim, un pantalón negro y un jean azul. También hay tres tipos de calzado: zapatillas blancas, bailarinas negras y mules de tacón.')
-            figcaption Fuente: https://www.project-glam.com/project-glam/estilo-casual-como-vestir-y-ejemplos
+            figcaption.mx-auto.d-flex 
+              p.mb-0 Fuente: &nbsp;  
+              a.mb-0.aref-fuente(href='https://www.project-glam.com/project-glam/estilo-casual-como-vestir-y-ejemplos') https://www.project-glam.com/project-glam/estilo-casual-como-vestir-y-ejemplos
 
         .col-sm-12.col-lg-6
             .bg-color-8.mb-0.p-4
@@ -119,7 +121,9 @@
                   p.mb-0 #[b Figura 19.]  Prendas casuales de vestido y complementos
               figure.mb-0
                 img(src='@/assets/curso/temas/t4/4.png', alt='Conjunto de prendas femeninas de estilo casual. Incluye un vestido negro largo de tirantes, una chaqueta de mezclilla corta, sandalias negras de tiras cruzadas, un bolso negro con detalles dorados y aretes dorados pequeños.')
-            figcaption Fuente: https://www.project-glam.com/project-glam/estilo-casual-como-vestir-y-ejemplos
+            figcaption.mx-auto.d-flex 
+              p.mb-0 Fuente: &nbsp;  
+              a.mb-0.aref-fuente(href='https://www.project-glam.com/project-glam/estilo-casual-como-vestir-y-ejemplos') https://www.project-glam.com/project-glam/estilo-casual-como-vestir-y-ejemplos
 
 
       .row.justify-content-center.mb-5(data-aos='fade-right')
@@ -129,7 +133,9 @@
                   p.mb-0 #[b Figura 20.]  Prendas casuales en tejido de poliéster
               figure.mb-0
                 img(src='@/assets/curso/temas/t4/5.png', alt='Conjunto de prendas femeninas de estilo casual. Incluye una camiseta de rayas blancas y negras, un chaleco acolchado rojo, unos leggings negros ajustados y botas negras tipo combate. ')
-            figcaption Fuente: https://www.project-glam.com/project-glam/estilo-casual-como-vestir-y-ejemplos
+            figcaption.mx-auto.d-flex 
+              p.mb-0 Fuente: &nbsp;  
+              a.mb-0.aref-fuente(href='https://www.project-glam.com/project-glam/estilo-casual-como-vestir-y-ejemplos') https://www.project-glam.com/project-glam/estilo-casual-como-vestir-y-ejemplos
 
         .col-sm-12.col-lg-6
             .bg-color-8.mb-0.p-4
@@ -137,7 +143,9 @@
                   p.mb-0 #[b Figura 21.]  Prendas casuales de sudadera y pantalón
               figure.mb-0
                 img.wcus-8.mx-auto(src='@/assets/curso/temas/t4/6.png', alt='Conjunto de prendas femeninas de estilo casual. Incluye un suéter rosa de manga larga y corte corto, un pantalón ancho de mezclilla, zapatillas con estampado animal print, un bolso negro con lazo y aretes de aro plateados.')
-            figcaption Fuente: https://www.project-glam.com/project-glam/estilo-casual-como-vestir-y-ejemplos
+            figcaption.mx-auto.d-flex 
+              p.mb-0 Fuente: &nbsp;  
+              a.mb-0.aref-fuente(href='https://www.project-glam.com/project-glam/estilo-casual-como-vestir-y-ejemplos') https://www.project-glam.com/project-glam/estilo-casual-como-vestir-y-ejemplos
 
       .tarjeta.bg-color-12.p-3.mb-0(data-aos='fade-right')
         .row.justify-content-around.align-items-center

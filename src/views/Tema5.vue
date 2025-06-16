@@ -8,7 +8,7 @@
         h1 Textiles
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-6
-          p.mb-5 Los textiles en general ya sea para uso de vestuario o industrial se elaboran a partir de fibras que dan origen a un filamento, este es hilado, después se convierte en hilo y posteriormente a partir de diversas clases de tejidos se elaboran las telas, a continuación, encontraras los procesos generales dentro de cada apartado.
+          p.mb-5 Los textiles en general ya sea para uso de vestuario o industrial se elaboran a partir de fibras que dan origen a un filamento, este es hilado, después se convierte en hilo y posteriormente a partir de diversas clases de tejidos se elaboran las telas, a continuación, encontrará los procesos generales dentro de cada apartado.
           .bg-color-13.p-5.br-3.mb-cus
             p.mb-0 #[b Fibras textiles:] es la materia sólida unitaria de cualquier estructura textil, fibra es cada uno de los filamentos que componen las unidades fundamentales en la fabricación de hilos, textiles y telas, se considera filamento cuya longitud de esta es superior a su diámetro.
         .col-sm-12.col-lg-6
@@ -150,7 +150,7 @@
             .col-sm-12.col-lg-11
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.mb-1 Sesión 6 - Caracterización de los textiles
+                  h4.mb-1 Caracterización de los textiles
                   p.mb-0 Se invita a consultar el video para conocer las características, usos y aplicaciones de los textiles en la creación de prendas, una base clave para tomar decisiones acertadas en diseño y confección.
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=kL9UYOzJD3o" target="_blank")

@@ -99,7 +99,7 @@
             .col-sm-12.col-lg-11
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.mb-1 Introducción a ficha técnica
+                  h4.mb-1 Introducción a la ficha técnica
                   p.mb-0 Se invita a consultar el video para conocer la función de las fichas técnicas en la fabricación de prendas de vestir y su importancia en el control y precisión del proceso de confección.
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=dcFVqOqjFg4" target="_blank")

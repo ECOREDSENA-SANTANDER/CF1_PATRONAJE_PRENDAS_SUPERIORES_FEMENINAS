@@ -451,7 +451,18 @@ export default {
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
-      autores: [],
+      autores: [
+        {
+          nombre: 'Erika Daniela Manrique Rueda',
+          cargo: 'Validadora de recursos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+        {
+          nombre: 'Andrea Ardila Chaparro',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+      ],
     },
   ],
   creditosAdicionales: {
