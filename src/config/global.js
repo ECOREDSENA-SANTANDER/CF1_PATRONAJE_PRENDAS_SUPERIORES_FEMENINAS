@@ -454,7 +454,7 @@ export default {
       autores: [
         {
           nombre: 'Erika Daniela Manrique Rueda',
-          cargo: 'Validadora de recursos digitales',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
